@@ -1,3 +1,10 @@
+import '@styles';
+import { AppProviders, AppRoutes } from './components';
+
 export function App() {
-  return <div>APP</div>;
+  return (
+    <AppProviders>
+      <AppRoutes />
+    </AppProviders>
+  );
 }
