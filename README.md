@@ -70,6 +70,9 @@ npm run ci-test   # CI mode
 npm run lint      # Type check and lint
 npm run format    # Format code
 ```
+## Supabase 
+
+Project URL: https://uhifgefyzxlymrejdhky.supabase.co
 
 ## Scripts
 
