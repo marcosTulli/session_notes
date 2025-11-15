@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config'
+import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import svgrPlugin from 'vite-plugin-svgr';
 import topLevelAwait from 'vite-plugin-top-level-await';
@@ -9,10 +9,9 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-
 export default defineConfig({
   base: '/',
-    plugins: [
+  plugins: [
     react(),
     svgrPlugin({
       svgrOptions: {
@@ -66,4 +65,4 @@ export default defineConfig({
       },
     },
   },
-})
+});
