@@ -72,7 +72,7 @@ npm run format    # Format code
 ```
 ## Supabase 
 
-Project URL: https://uhifgefyzxlymrejdhky.supabase.co
+Project URL: [https://supabase.com/dashboard/project/uhifgefyzxlymrejdhky]
 
 ## Scripts
 
